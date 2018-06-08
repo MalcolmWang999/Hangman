@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+
+<!--
+Malcolm Wang
+April 2018 to June 2018
+ICS3U JavaScript Game: Hangman
+This is the game website
+-->
+
+<html>
+
+    <head>
+
+        <meta charset = "UTF-8">
+
+        <title>JavaScript Hangman game</title>
+
+        <link rel = "stylesheet" href = "style.css"/>
+
+    </head>
+
+    <body>
+
+        <div class = "wrappper">
+
+            <h1>Hangman</h1>
+
+            <p>Use the alphabet below to guess the word.</p>
+
+        </div>
+
+        <div class = "wrappper">
+            
+            <canvas id = "hangman"></canvas>
+
+            <div id = "alphabetButtons"></div>
+            
+            <p id = "printLevel"></p>
+
+            <div id = "hold">
+                
+                <p id = "printWord"></p>
+                
+            </div>
+
+            <p id = "myLives"></p>
+
+            <button id = "reset">Play again</button>
+            
+            <button onclick = "location.href = 'index.html'" type = "button">Back</button>
+
+        </div>
+
+        <script src = "gameCore.js"></script>
+
+    </body>
+
+</html>
